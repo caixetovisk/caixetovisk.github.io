@@ -2,12 +2,18 @@ nav {
     height: 50px;
     background-color: #484848;
     color: #c8c8c8;
-    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: end;
+    list-style-type: none;
 }
-
+nav li{
+ padding: 10px;
+}
 a {
     text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: pink;
 }
