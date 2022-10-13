@@ -17,3 +17,16 @@ a:hover{
     text-decoration: none;
     color: pink;
 }
+
+section{
+    min-height: 480px;
+    background-color: #484848;
+    color:orange;
+    padding: 10px;
+    border: 2px dotted #8961b5
+}
+
+section:hover{
+    background-color: #181818;
+    color:rgb(255, 188, 63);
+}
