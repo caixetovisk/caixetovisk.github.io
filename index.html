@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site pessoal</title>
-    <link 
-        href="./assets/css/meu_estilo.css" 
-        type="text/css"
-        rel="stylesheet"
-    >
+    <link href="./assets/css/meu_estilo.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-    <nav> 
+    <nav>
         <li><a href="#home">Home </a></li>
         <li><a href="#projetos">Projetos </a></li>
-        <li><a href="#redes_socias">Redes sociais </a></li>
+        <li><a href="#redes_sociais">Redes sociais </a></li>
     </nav>
-    <div class="conteudo"> 
+    <div class="conteudo">
         <section id="home">
-            aqui vai ser feito a home
+            <p>Visualiza os arquivos que foram alterados</p>
+            <p class="comando-git">
+                git status
+            </p>
+            <p> Prepara um arquivo para ser versionado.</p>
+            <p class="comando-git">
+                git add nome_de_um_arquivo
+            </p>
+            <p>Gera a versão das modificações</p>
+            <p class="comando-git">
+                git commit -m "uma mensagem legal do que foi feito nos arquivos nesta versão"
+            </p>
+            <p>Envia para o Github</p>
+            <p class="comando-git">
+                git push origin main
+            </p>
+
         </section>
         <section id="projetos">
             aqui vai ter os projetos
@@ -30,4 +44,5 @@
     </div>
     <footer> vai ter um rodapé</footer>
 </body>
+
 </html>

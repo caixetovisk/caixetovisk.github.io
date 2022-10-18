@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 nav {
     height: 50px;
     background-color: #484848;
@@ -6,18 +10,22 @@ nav {
     align-items: center;
     justify-content: end;
     list-style-type: none;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
 nav li{
  padding: 10px;
 }
 a {
     text-decoration: none;
-}
-a:hover{
-    text-decoration: none;
-    color: pink;
+    color: orange
 }
 
+a:hover{
+    color: #8961b5;
+}
 section{
     min-height: 480px;
     background-color: #484848;
