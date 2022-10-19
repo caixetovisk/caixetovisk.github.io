@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-padding-top: 50px;
 }
 nav {
     height: 50px;
@@ -40,4 +41,10 @@ section{
     border: 3px solid #9920a3;
     background-color: #c9c8c8;
     color: #484848;
+}
+p{
+    padding: 5px;
+}
+.conteudo{
+    margin-top: 50px;
 }
