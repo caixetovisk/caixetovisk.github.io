@@ -19,6 +19,7 @@ jobs:
       - name: Resposta do captcha
         run: echo "$((2 + 2))"
   adeus:
+    runs-on: ubuntu-latest
     steps:
      - name: "O fim"
        run: echo "Após uma tempestade solar, a uma humanidade virou churrasquinho"
