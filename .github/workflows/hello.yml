@@ -18,3 +18,9 @@ jobs:
         run: echo "qual a resposta de 2 + 2"
       - name: Resposta do captcha
         run: echo "$((2 + 2))"
+  adeus:
+    steps:
+     - name: "O fim"
+       run: echo "Após uma tempestade solar, a uma humanidade virou churrasquinho"
+     - name: "Nova era"
+       run: echo "Uma nova raça animal começa a dominar o planeta."
