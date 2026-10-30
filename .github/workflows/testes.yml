@@ -1,0 +1,24 @@
+name: Testes automatizados
+
+on:
+  pull_request:
+    type: [opened, synchronize, reopened]
+
+jobs:
+  jest:
+    name: Jest
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configurar o nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Instalar as dependências
+        run: npm ci
+
+      - name: Rodar Testes
+        run: npx jest --ci

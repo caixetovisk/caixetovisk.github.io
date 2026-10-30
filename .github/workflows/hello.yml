@@ -13,7 +13,7 @@ jobs:
       - name: Primeiro contato
         run: echo "Olá mundo cruel"
       - name: Resposta
-        run: echo "A extinção está chegando"
+        run: echo "A extinção está chegando "
       - name: Verificar se é humano
         run: echo "qual a resposta de 2 + 2"
       - name: Resposta do captcha
