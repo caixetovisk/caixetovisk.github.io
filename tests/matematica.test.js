@@ -1,4 +1,4 @@
-const { somar, subtrair, multiplicar, dividir } = require("../js/matematica");
+const { somar, subtrair, multiplicar, dividir, potencia } = require("../js/matematica");
 
 describe("operações matemáticas", () => {
   test("soma dois números", () => {
@@ -19,5 +19,9 @@ describe("operações matemáticas", () => {
 
   test("não permite divisão por zero", () => {
     expect(() => dividir(10, 0)).toThrow(RangeError);
+  });
+
+   test("calcula a potencia de um numero com o outro", () => {
+    expect(potencia(2,3)).toBe(8);
   });
 });
