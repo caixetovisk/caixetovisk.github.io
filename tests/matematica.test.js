@@ -22,6 +22,6 @@ describe("operações matemáticas", () => {
   });
 
    test("calcula a potencia de um numero com o outro", () => {
-    expect(() => potencia(2,3)).toBe(9);
+    expect(potencia(2,3)).toBe(9);
   });
 });
